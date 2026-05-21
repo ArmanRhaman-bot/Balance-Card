@@ -17,7 +17,7 @@ app.get("/card", async (req, res) => {
   const ctx = canvas.getContext("2d");
 
   // 🔥 load your template image
-  const bg = await loadImage("https://share.google/9UlX39AVESv5fJHSe"); // এখানে তোমার image URL দিবা
+  const bg = await loadImage("https://iili.io/C9kPSse.jpg"); // এখানে তোমার image URL দিবা
   ctx.drawImage(bg, 0, 0, width, height);
 
   // ===== TEXT STYLE =====
